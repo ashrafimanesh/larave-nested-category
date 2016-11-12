@@ -1,6 +1,6 @@
 <?php
 
-namespace Ashrafimanesh\NestedCategories;
+namespace Ashrafi\NestedCategories;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,7 +24,7 @@ class NestedCategoriesServiceProvider extends ServiceProvider
     public function register()
     {
         include __DIR__.'/routes.php';
-        $this->app->make('Ashrafimanesh\NestedCategories\NestedCategoriesController');
+        $this->app->make('Ashrafi\NestedCategories\NestedCategoriesController');
     }
 
 }
