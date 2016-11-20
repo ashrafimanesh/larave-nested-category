@@ -15,6 +15,7 @@ class NestedCategoriesController extends Controller
 {
     public function index(){
         echo 'hello to package';
+        dd(NestedCategory::create(['title'=>'digital']));
     }
 
 }
